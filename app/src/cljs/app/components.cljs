@@ -107,7 +107,7 @@
   [value title]
   [:span.custominputlabel (str title)
    [:input.custominput {:id (str (name value) "id") :type "number"
-                        :step "0.1" :min "0" :max "100"
+                        :step "1.0" :min "0" :max "100"
                         :default-value (.toFixed (value @db/custom-palette-db) 2)}]])
 
 (defn custom-colors-component
