@@ -122,7 +122,7 @@
        (colors/set-random-palette (colors/custom-palette
                                    (:lightness @db/custom-palette-db)
                                    (:saturation @db/custom-palette-db))))]
-   [custom-color-input-component :lightness "L: "]
+   [custom-color-input-component :lightness "L1: "]
    [custom-color-input-component :saturation "S: "]])
 
 (defn color-component [facename]
